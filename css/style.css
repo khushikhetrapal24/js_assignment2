@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+figure {
+    display: none;
+    width: 70%;
+    float: left;
+}
+figure img {
+    width: 100%;
+}
+figure.active {
+    display: block;
+}
+ul {
+    float: left;
+    width: 30%;
+    list-style-type: none;
+    padding: 10px;
+}
+ul li {
+    padding-bottom: 10px;
+}
+ul li img {
+    
+    filter: grayscale(100%);
+}
+ul li.active img {
+    
+    filter: none;
+}
+.clear {
+    clear: both;
+    display: table;
+}
